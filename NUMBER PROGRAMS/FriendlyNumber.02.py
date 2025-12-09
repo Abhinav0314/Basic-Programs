@@ -1,0 +1,1 @@
+print(f"{(a := int(input('Please enter the first number.')))} and {(b := int(input('Pleaase enter second number.')))} are {'Friendly' if sum(i for i in range(1, a + 1) if a % i == 0) / a == sum(j for j in range(1, b + 1) if b % j == 0) / b else 'not Friendly'} numbers.")

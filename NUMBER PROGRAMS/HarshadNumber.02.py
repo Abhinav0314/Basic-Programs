@@ -1,0 +1,1 @@
+print(f"{(n := int(input('Please enter a number.')))} is {'a Harshad' if n % sum((map(int, str(n)))) == 0 else 'not a Harshad'} number.")

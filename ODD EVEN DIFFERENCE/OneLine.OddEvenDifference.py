@@ -1,0 +1,1 @@
+print(sum(int(digit) if position & 1 else -int(digit) for position, digit in enumerate(input('Enter the value of x:'),1[::-1])))

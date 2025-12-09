@@ -1,0 +1,1 @@
+print('Sorted string is:', ' '.join(sorted(input('Please enter a string.').split(), key = len)))
